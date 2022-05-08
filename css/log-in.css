@@ -1,0 +1,229 @@
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,input{
+    font-family: 'Poppins',sans-serif;
+}
+
+.menu_bar{
+    background-image: linear-gradient(-45deg,#155c71 0%,#09415d  100%);
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    border-radius: 45px 20px;
+}
+.menu_bar ul{
+    display: inline-flex;
+    list-style:none;
+}
+.menu_bar ul li{
+    margin: 8px;
+    width: 190px;
+    padding: 6px;
+    transition: 1.5s;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+ul li a:hover{
+    color: black;
+}
+.active,.menu_bar ul li:hover{
+    cursor: context-menu;
+    border-radius: 3px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.form-container{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+.container::before{
+    content: '';
+    position: absolute;
+    height: 2000px;
+    width: 2000px; 
+    top: -10%;
+    right: 48%;
+    background-image: linear-gradient(-45deg,#09415d 0% ,#175d73 100%);
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 6;
+    transition: 1.8s ease-in-out;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    padding: 0 5rem;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.title{
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+.input-field{
+    max-width: 380px;
+    width: 100%;
+    margin: 10px 0;
+    display: grid;
+    background-color: #f0f0f0;
+    height: 55px;
+    border-radius: 55px;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.input-field i{
+    text-align: center;
+    line-height: 55px;
+    color: #aaaaaa;
+    font-size: 1.3rem;
+}
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+.input-field input:placeholder-shown{
+    color: #aaa;
+    font-weight: 600;
+
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color:#175d73 ;
+    color: #f0f0f0;
+    font-weight: 550;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+.gh{
+    width: 150px;
+    height: 49px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color:#175d73 ;
+    color: #f0f0f0;
+    font-weight: 550;
+    margin: 10px 0;
+    transition: all 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+.gh:hover{
+    background-color:#09415d ;
+}
+.word{
+    display: inline-block;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color:#09415d ;
+}
+.social-text{
+    padding: 0.7rem 0;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem; 
+    border-radius: 50%;
+    transition: all 0.5s; 
+}
+.social-icon:hover{
+    color: #2295b8;
+    border-color: #6eb1d3;
+}
+.signin-signup{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+}
+form.sign-in-form{
+    z-index: 2;
+}
+.image{
+    width: 100%;
+    transition: 1.1s 0.4s ease-in-out;
+}
+.panels-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 7;
+}
+.left-panel{
+    padding: 3rem 17% 2rem 12%;
+}
+
+.panel .content{
+ color: #fff;
+ transition: .9s 0.6 ease-in-out;
+
+}
+.panel h3{
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1.5rem;
+}
+.panel p{
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+}
