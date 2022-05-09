@@ -1,0 +1,29 @@
+.ha1 {
+    background-color: burlywood;
+}
+
+table,
+th,
+td {
+    border: 4px solid black;
+}
+
+table {
+    width: 30%;
+    color: yellow;
+    background-image: url("../assets/images/images (13).jpg");
+}
+
+.ha2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    height: 450px;
+}
+
+.ha3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

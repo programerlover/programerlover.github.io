@@ -1,0 +1,303 @@
+
+*{
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.noha_containe{
+    width:2000px;
+    margin: auto;
+    background-color: rgb(206, 195, 195);
+    border-radius: 1000px;
+    padding-right: 1px
+
+}
+
+.noha_container .noha_links li{
+    border-radius: 100px
+}
+
+.noha_ul{
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.noha_navbar { 
+    background-color: rgba(17, 160, 72, 0.747);
+    font-size: 30px;
+    height: 0px
+}
+
+.noha_navbar .noha_brand {
+    float:left;
+    width: 30%
+}
+
+.noha_navbar .noha_links {
+    float: left;
+    width:70%;
+    margin-top: 20px;
+    font-weight: bold
+}
+
+.noha_navbar .noha_links li {
+    display: inline-block;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    border-radius: 12px
+
+}
+
+.noha_navbar .noha_links li.noha_active,
+.noha_navbar .noha_links li:hover{
+   color:rgb(2, 161, 161);
+    border-bottom: 2px solid transparent
+}
+
+
+
+.noha_clearfix {
+    clear: both
+}
+
+.noha_box4 img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
+    transition: transform .2s;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+  /*  margin-top: 50px;*/
+    float: right
+}
+
+.noha_box4 img:hover{
+    transform: scale(1.1)
+}
+
+.noha_small img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
+    transition: transform .2s;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    float: left
+}
+
+.noha_small img:hover{
+    transform: scale(1.1)
+}
+
+/*.box{
+    margin: 0px -100px 0px 0px;
+  /*  background-image:url("../imgs/شرح-معبد-الكرنك-.jpg" );
+    padding: 100px;
+    width:5000px ;
+    height: 500px;
+    border-left: 1300px solid transparent;
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    border: rgb(187, 64, 64)
+}*/
+
+
+.noha_box2{
+    background-color: rgb(50, 77, 77);
+    font-size: 40px;
+    width: 100%;
+    height: 100px;
+    padding:5px 500px 140px 750px 
+
+
+}
+
+.noha_box3{
+    text-align: justify;
+    font-size: 40px;
+    color: rgb(5, 0, 10);
+    padding-left: 1270px;
+    margin-top: -500;
+    padding-top: 1000;
+    padding-bottom: 60px;
+    background-color: brown
+}
+
+.noha_play{
+    text-align: justify;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    margin-top:-600px;
+    padding-right: 1270px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    background-color: brown 
+}
+
+.noha_m1{
+background-color: rgb(190, 151, 116);
+font-size: 40px;
+width: 100%;
+height: 100px;
+padding:5px 500px 140px 750px;
+border-radius: 100px
+} 
+/*.zoom {
+    padding: 50px;
+    background-image: url(../imgs/download.jpg);
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5)
+  }*/
+  .noha_head img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
+    transition: transform .2s;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    float: left
+  }
+
+  .noha_head img:hover{
+    transform: scale(1.1)
+}
+
+.noha_article img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
+    transition: transform .2s;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    float: right
+}
+
+.noha_article img:hover{
+    transform: scale(1.1)
+}
+
+
+.noha_m2{
+    text-align: justify;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    margin-top:0px;
+    padding-right: 1270px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    background-color:brown
+}
+
+.noha_door{
+    text-align: justify;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    margin-top:-800px;
+    padding-right: 10px;
+    padding-left: 1200px;
+    padding-bottom: 60px;
+    background-color: brown
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200&display=swap');
+.big {
+    Line-height: 1.5;
+    Font-family: 'Poppins', sans-serif;
+}
+.container {
+    Max-width: 1170px;
+    Margin: auto;
+}
+.row {
+    Display: flex;
+    Flex-wrap: nowrap;
+}
+.foot {
+    List-style-type: none;
+}
+.footer {
+    Background-color: #24262b;
+    Padding: 70px 0;
+}
+.footer-col {
+    Width: 25%;
+    Padding: 0 15px;
+}
+.footer-col h4 {
+    Font-size: 18px;
+    Color: #0d2ee9;
+    Text-transform: capitalize;
+    Margin-bottom: 35px;
+    Font-weight: 500;
+    Position: relative;
+}
+.footer-col h4::before {
+    Content: "";
+    Position: absolute;
+    Left: 0;
+    Bottom: -10px;
+    Background-color: #e91e63;
+    Height: 2px;
+    Box-sizing: border-box;
+    Width: 55px;
+}
+.footer-col .foot .fooo:not(:last-child) {
+    Margin-bottom: 10px;
+}
+.footer-col .foot .fooo .foo {
+    Font-size: 16px;
+    Text-transform: capitalize;
+    Color: #e40a0a;
+    Text-decoration: none;
+    Font-weight: 300;
+    Color: #bbbbbb;
+    Display: block;
+    Transition: all 0.3s ease;
+}
+.footer-col .foot .fooo .foo:hover {
+    Color: #ffffff;
+    Padding-left: 8px;
+}
+.footer-col .social-links .foo {
+    Display: inline-block;
+    Height: 40px;
+    Width: 40px;
+    Background-color: rgba(241, 0, 12, 0.2);
+    Margin: 0 10px 10px 0;
+    Text-align: center;
+    Line-height: 40px;
+    Border-radius: 50%;
+    Color: #ffffff;
+    Transition: all 0.5s ease;
+}
+.footer-col .social-links .foo:hover {
+    Color: #24262b;
+    Background-color: #ffffff;
+}
+@media(max-width:767px) {
+    .footer-col {
+        Width: 50%;
+        Margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px) {
+    .footer-col {
+        Width: 100%;
+    }
+}

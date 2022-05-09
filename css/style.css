@@ -1,0 +1,309 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #6b69693d;
+}
+
+nav {
+    background-color: #000E75;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+label.logo {
+    color: whitesmoke;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: gold;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 0 100px 0 5px;
+    transition: 0.7s;
+}
+
+nav ul li a:hover {
+    color: honeydew;
+}
+
+section {
+    padding: 150px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../assets/images/pyramid.jpeg);
+    /* background-color:#00010A; */
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(73, 69, 69);
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: 2px 1px white;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 25px;
+}
+
+.ye {
+    justify-content: center;
+    display: flex;
+}
+
+.vid {
+    width: 400px;
+    height: 580px;
+    padding-top: 40px;
+}
+
+.ha {
+    text-align: center;
+    color: #0c3f7d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 80px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #0c3f7d;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #0c3f7d;
+    width: 350px;
+    box-shadow: 0 5px 25px rgba(1 1 1/30px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.info h3 {
+    color: gold;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.abydos,
+.museum {
+    text-align: center;
+    font-size: 30px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    padding: 0 100px 0 5px;
+    word-spacing: 100px;
+    line-height: 20;
+}
+
+.one {
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+.one h3 {
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    background-color: #0c3f7d;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.one a {
+    background-color: #7092BE;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 40px
+}
+
+.one a:hover {
+    color: rgb(39, 4, 100);
+}
+
+.am {
+    padding-top: 10px;
+}
+
+.am h2 {
+    display: flex;
+    justify-content: center;
+    color: #0c3f7d;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.am p {
+    font-size: medium;
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 2px #949494;
+}
+
+footer .icons {
+    flex-direction: row;
+}
+
+
+/* page2 */
+
+.f,
+.s,
+.t,
+.fr,
+.fv,
+.sth p {
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+    margin: 20px;
+    text-align: left;
+    line-height: 1.7;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 27px;
+    text-align: justify;
+}
+
+.im,
+.mg {
+    padding-right: 20px;
+}
+
+.f,
+.t,
+.fr,
+.sth,
+.fv {
+    display: flex;
+}
+
+.t p {
+    padding-left: 20px;
+}
+
+.abyt h1,
+h3 {
+    padding: 10px 0px 20px 0px;
+}
+
+.z {
+    padding-bottom: 20px;
+}
+
+.f,
+.fr p {
+    padding-left: 30px;
+}
+
+.fr p {
+    padding-bottom: 30px;
+}
+
+.be {
+    padding-bottom: 40px;
+}
+
+.vide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.pp {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.abyt {
+    padding-bottom: 10px;
+}
+
+.GRM {
+    padding-top: 20px;
+}
+
+.abyt h1,
+.GRM h1 {
+    background-color: #7092BE;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.no {
+    padding-top: 30px;
+    justify-content: center;
+}
