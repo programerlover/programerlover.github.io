@@ -302,7 +302,7 @@ h1 {
 .fourteen {
     position: relative;
     left: 270px;
-    top: -1050px;
+    top: -1000px;
     width: 1000px;
     opacity: 20;
     animation: change 20s infinite;
