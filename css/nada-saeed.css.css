@@ -99,7 +99,7 @@ ul li a:hover{
 }  
 .n4{
     padding: 5%;
-    margin-left: 750px;
+    margin-left: 700px;
     flex-wrap: wrap;
     width: 700px;
     margin-top: -1380px;
@@ -197,7 +197,7 @@ flex-wrap: wrap;
     font-weight: 700;
 } 
  .gallery-imag{
-     margin-right: -50%;
+     margin-right: -30%;
      padding: 20px;
      display: flex;
      flex-wrap: wrap;
