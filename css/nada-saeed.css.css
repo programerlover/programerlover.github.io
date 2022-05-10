@@ -101,8 +101,8 @@ ul li a:hover{
     padding: 5%;
     margin-left: 700px;
     flex-wrap: wrap;
-    width: 600px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     margin-top: -1380px;
     border-radius:90px;
     position: relative;
@@ -198,7 +198,7 @@ flex-wrap: wrap;
     font-weight: 700;
 } 
  .gallery-imag{
-     margin-right: -10%;
+     margin-left: 30%;
      padding: 20px;
      display: flex;
      flex-wrap: wrap;
