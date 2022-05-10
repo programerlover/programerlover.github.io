@@ -99,9 +99,9 @@ ul li a:hover{
 }  
 .n4{
     padding: 5%;
-    margin-left: 700px;
+    margin-left: 600px;
     flex-wrap: wrap;
-    width: 600px;
+    width: 550px;
     margin-top: -1380px;
     border-radius:90px;
     position: relative;
@@ -171,7 +171,7 @@ flex-wrap: wrap;
 }
   .location-map{
       width: 100%;
-      height: 370px;
+      height: 350px;
       background-color:#131550; 
       border-radius: 30px;
   }
