@@ -101,7 +101,8 @@ ul li a:hover{
     padding: 5%;
     margin-left: 700px;
     flex-wrap: wrap;
-    width: 550px;
+    width: 600px;
+    height: 500px;
     margin-top: -1380px;
     border-radius:90px;
     position: relative;
