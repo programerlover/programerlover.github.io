@@ -56,7 +56,7 @@ section{
     min-height:100vh;
     display: flex;
     
-     background: url("../assets/images/pyramid.jpeg") no-repeat;
+     background: url("../assets/images/pyramids.jpg") no-repeat;
     /* background-color:#00010A; */
     background-size: cover;
     background-attachment: fixed;
