@@ -86,14 +86,6 @@ section{
     justify-content: center;
     display: flex;
 }
-.vid{
-    
-    width: 400px;
-    height: 580px;
-    padding-top: 40px;
-    
-    
-}
 .ha{
     text-align: center;
     color: #0c3f7d;
@@ -247,13 +239,7 @@ section{
 .be{
     padding-bottom: 40px;
 }
-.vide{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding-top: 40px;
-}
+
 .pp{
     padding-top: 50px;
     text-align: center;
