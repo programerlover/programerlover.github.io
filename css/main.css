@@ -234,7 +234,7 @@ h1 {
     height: 250px;
     border-radius: 50%;
     transition: .2s linear;
-    left: 0.1px;
+    width: 70%;
     margin-top: -10px;
 }
 
