@@ -234,8 +234,7 @@ h1 {
     height: 250px;
     border-radius: 50%;
     transition: .2s linear;
-    width: 70%;
-    margin-top: -10px;
+    top: 1px;
 }
 
 .eight:hover {
@@ -303,7 +302,7 @@ h1 {
 .fourteen {
     position: relative;
     left: 270px;
-    top: -1076px;
+    top: -1000px;
     width: 1000px;
     opacity: 20;
     animation: change 20s infinite;
