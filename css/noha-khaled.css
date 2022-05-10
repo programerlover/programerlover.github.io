@@ -1,105 +1,96 @@
-/* {
+*{
     -webkit-box-sizing: border-box ;
-    background-color: #0d2ee9;
     -moz-box-sizing: border-box;
     box-sizing: border-box
-}*/
+}
 
-.containe{
+.noha_containe{
     width:2000px;
     margin: auto;
-    background-color: rgb(194, 57, 125);
+    background-color: rgb(206, 195, 195);
     border-radius: 1000px;
     padding-right: 1px
 
 }
 
-.container .links li{
+.noha_container .noha_links li{
     border-radius: 100px
 }
 
-ul {
+.noha_ul{
     list-style: none;
     padding: 0;
     margin: 0
 }
-@media screen and (max-width:1818){
-    
-}
-    
 
-
-.navbar { 
+.noha_navbar { 
     background-color: rgba(17, 160, 72, 0.747);
     font-size: 30px;
     height: 0px
 }
 
-.navbar .brand {
+.noha_navbar .noha_brand {
     float:left;
     width: 30%
 }
 
-.navbar .links {
-    color: #0d2ee9;
+.noha_navbar .noha_links {
     float: left;
-    margin-bottom: -10;
     width:70%;
     margin-top: 20px;
     font-weight: bold
 }
 
-.navbar .links li {
-    font-size: 20px;
+.noha_navbar .noha_links li {
     display: inline-block;
-    color: #bbbbbb;
     padding: 10px 15px;
     border-bottom: 2px solid transparent;
-    border-radius: 12px;
-    background-color: #e91e63;
+    border-radius: 12px
 
 }
 
-.navbar .links li.active,
-.navbar .links li:hover{
+.noha_navbar .noha_links li.noha_active,
+.noha_navbar .noha_links li:hover{
    color:rgb(2, 161, 161);
     border-bottom: 2px solid transparent
 }
 
 
 
-.clearfix {
+.noha_clearfix {
     clear: both
 }
 
-
-.box4 img{
-    background-position:100px 600px;
-    padding: 20px 10px 0px 450px;
+.noha_box4 img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
     transition: transform .2s;
-    width: 560px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     margin: 0 auto;
+  /*  margin-top: 50px;*/
     float: right
-
 }
 
-.box4 img:hover{
+.noha_box4 img:hover{
     transform: scale(1.1)
 }
 
-.small img{
-    margin-top:1000px;
-    background-position:100px 600px;
-    padding: 0px 10px 0px 20px;
+.noha_small img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
     transition: transform .2s;
-    width: 560px;
-    height: 300px;
-   margin-top: -300px;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
     float: left
 }
 
-.small img:hover{
+.noha_small img:hover{
     transform: scale(1.1)
 }
 
@@ -116,63 +107,45 @@ ul {
 }*/
 
 
-.box2{
-   /* background-color: rgb(50, 77, 77);
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 1050px ;
-    text-align: center;*/
-    font-size: 20px;
-    display: inline-block;
-    padding: 8px 15px 0px 550px;
-    border-bottom: 2px solid transparent;
-   /* border-radius: 12px;*/
-    background-color: #e91e63;
-    font-weight: bold;
-    width: 770px;
+.noha_box2{
+    background-color: rgb(50, 77, 77);
+    font-size: 40px;
+    width: 100%;
+    height: 100px;
+    padding:5px 500px 140px 750px 
 
 
 }
 
-/*.box2 h3{
-    padding-right: 150px;
-    margin-left: -60px;
-    text-indent: -80px;
-    text-align: center;
-    writing-mode: horizontal-tb
-}*/
-
-.box3{
+.noha_box3{
     text-align: justify;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(5, 0, 10);
-    padding-left: 760px;
+    padding-left: 1270px;
     margin-top: -500;
     padding-top: 1000;
     padding-bottom: 60px;
     background-color: brown
 }
 
-.play{
+.noha_play{
     text-align: justify;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(8, 8, 8);
-    margin-top:-350px;
-    padding-right: 760px;
-    padding-left: 20px;
+    margin-top:-600px;
+    padding-right: 1270px;
+    padding-left: 50px;
     padding-bottom: 60px;
     background-color: brown 
 }
 
-.m1{
-    font-size: 20px;
-    display: inline-block;
-    padding: 8px 15px 0px 550px;
-    border-bottom: 2px solid transparent;
-   /* border-radius: 12px;*/
-    background-color: #302749;
-    font-weight: bold;
-    width: 770px;
+.noha_m1{
+background-color: rgb(190, 151, 116);
+font-size: 40px;
+width: 100%;
+height: 100px;
+padding:5px 500px 140px 750px;
+border-radius: 100px
 } 
 /*.zoom {
     padding: 50px;
@@ -186,56 +159,57 @@ ul {
   .zoom:hover {
     transform: scale(1.5)
   }*/
-  .head img{
-    margin-top:-100px;
-    background-position:100px 600px;
-    padding: 0px 10px 0px 15px;
+  .noha_head img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
     transition: transform .2s;
-    width: 560px;
-    height: 300px;
-   margin-top: 10px;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
     float: left
   }
 
-  .head img:hover{
+  .noha_head img:hover{
     transform: scale(1.1)
 }
 
-.article img{
-    background-position:100px 600px;
-    padding: 20px 10px 0px 450px;
+.noha_article img{
+    width: 1000px;
+    height: 500px;
+    background-position:1000px 600px;
+    padding: 50px;
     transition: transform .2s;
-    width: 560px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     margin: 0 auto;
-    margin-top: -320px;
     float: right
-
 }
 
-.article img:hover{
+.noha_article img:hover{
     transform: scale(1.1)
 }
 
 
-.m2{
+.noha_m2{
     text-align: justify;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(8, 8, 8);
     margin-top:0px;
-    padding-right: 760px;
-    padding-left: 20px;
+    padding-right: 1270px;
+    padding-left: 50px;
     padding-bottom: 60px;
-    background-color: brown
+    background-color:brown
 }
 
-.door{
+.noha_door{
     text-align: justify;
-    font-size: 25px;
-    color: rgb(5, 0, 10);
-    padding-left: 760px;
-    margin-top: -400px;
-    padding-top: 1000;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    margin-top:-800px;
+    padding-right: 10px;
+    padding-left: 1200px;
     padding-bottom: 60px;
     background-color: brown
 }
