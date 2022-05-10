@@ -1,0 +1,53 @@
+footer{
+    color: cornsilk;
+    background-color: rgb(221, 86, 86);
+    transform: initial;
+}
+a:hover{
+ color: cadetblue;
+ text-decoration: underline;   
+}
+a:link{
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:active{
+    text-decoration: underline;
+    color: aqua;
+}
+.nav{
+    width:100vw ;
+    height: 100vw;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+nav{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+nav ul li{
+    margin-right: 30px;
+    list-style: none;
+    font-weight: 500;
+    z-index: 200;
+}
+nav ul li::before{
+    content: " ";
+    position: absolute;
+    height: 0;
+    width: 60px;
+    background-color: rgb(244, 193, 42);
+    bottom: 0px;
+    z-index: -10; 
+    transition: 0.5s;
+}
