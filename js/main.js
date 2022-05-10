@@ -17,3 +17,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 window.alert("this page contains many monuments such as:: saqqara , pyramids of giza , Abu Simbel , Nubian Museum , Red Pyramid , temple of Luxor , temple of Abydos , Temple of Hatshepsut , Temple of Ramses II , Egyptian Museum , Karnak Temple , Coptic Museum , Hanging church , Museum of Islamic Art , mohammed ali mosque ,  The Greco-Roman Museum ");
+
+
+// make function for doing button
+function change() {
+  document.getElementById("")
+
