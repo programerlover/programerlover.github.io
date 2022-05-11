@@ -345,7 +345,7 @@ h1 {
     font-weight: bolder;
     border-radius: 20px;
     font-size: 50px;
-    margin-top: -900px;
+    margin-top: -1000px;
     margin-left: 270px;
     color: var(--color);
     background-color: var(--mainColor);
@@ -1467,7 +1467,7 @@ div .cv {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    width: 850px;
+    width: 800px;
     height: 460px;
     margin-left: -100px;
     margin-top: 40px;
@@ -1491,7 +1491,7 @@ div .cv {
     color: black;
 }
 
-.fivev {
+.fivem {
     font-weight: bold;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
