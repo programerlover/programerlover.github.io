@@ -732,12 +732,13 @@ h1 {
 }
 
 .threek {
+    position: relative;
     width: 101.3%;
     height: 200px;
     background-color: rgb(4, 4, 92);
     margin: -16px -15px 0 0;
     margin-left: -10px;
-    margin-right: -20px;
+    margin-right: -40px;
 }
 
 .threek p {
