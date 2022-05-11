@@ -303,7 +303,7 @@ h1 {
     position: relative;
     left: 900px;
     top: -700px;
-    width: 1100px;
+    width: 1000px;
     height:850px;	
     opacity: 20;
     animation: change 20s infinite;
@@ -314,27 +314,27 @@ h1 {
 @keyframes change {
     0% {
         content: url('../assets/images//saladin2.jpg');
-        height: 750px;
+        height: 850px;
         width: 1000px;
     }
     25% {
         content: url('../assets/images//saladin3.jpg');
-        height: 750px;
+        height: 850px;
         width: 1000px;
     }
     50% {
         content: url('../assets/images//saladin7.jpg');
-        height: 750px;
+        height: 850px;
         width: 1000px;
     }
     75% {
         content: url('../assets/images//saladin5.jpg');
-        height: 750px;
+        height: 850px;
         width: 1000px;
     }
     100% {
         content: url('../assets/images//saladin10.jpg');
-        height: 750px;
+        height: 850px;
         width: 1000px;
     }
 }
