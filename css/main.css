@@ -754,7 +754,8 @@ h1 {
 
 .threek img {
     position: absolute;
-    width: 390px;
+    width: 410px;
+	height: 70px;
     display: flex;
     margin-left: 1060px;
     margin-top: -49px;
