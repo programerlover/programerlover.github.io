@@ -152,7 +152,7 @@ h1 {
     opacity: 100;
     top: 200px;
     left: 274px;
-    margin-right: -55px;
+    margin-right: -60px;
     width: 81%;
 }
 
@@ -218,7 +218,7 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     margin-left: 266px;
-    margin-top: -5px;
+    margin-top: -2px;
     background-color: var(--mainColor);
     border-radius: 20px;
     width: 80.5%;
@@ -302,7 +302,7 @@ h1 {
 .fourteen {
     position: relative;
     left: 305px;
-    top: -950px;
+    top: -920px;
     width: 1000px;
     height:860	
     opacity: 20;
