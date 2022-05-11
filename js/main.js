@@ -21,6 +21,6 @@ window.alert("this page contains many monuments such as:: saqqara , pyramids of 
 
 // make function for doing button
 function change() {
-  document.getElementById("bbbf").style="#e91e63";
+  document.getElementById("bbbf").style="red";
 }
 
