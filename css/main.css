@@ -305,6 +305,7 @@ h1 {
     top: -1050px;
     width: 900px;
     margine-top: -950px;
+    margine-left:40%;
     opacity: 20;
     animation: change 20s infinite;
     animation-timing-function: linear;
