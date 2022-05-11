@@ -218,7 +218,7 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     margin-left: 266px;
-    margin-top: -30px;
+    margin-top: -19px;
     background-color: var(--mainColor);
     border-radius: 20px;
     width: 80.5%;
@@ -301,7 +301,7 @@ h1 {
 
 .fourteen {
     position: relative;
-    left: 550px;
+    left: 350px;
     top: -900px;
     width: 1000px;
     height:850px;	
