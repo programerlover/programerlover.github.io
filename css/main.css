@@ -218,7 +218,7 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     margin-left: 266px;
-    margin-top: -13px;
+    margin-top: -9px;
     background-color: var(--mainColor);
     border-radius: 20px;
     width: 80.5%;
@@ -301,7 +301,7 @@ h1 {
 
 .fourteen {
     position: relative;
-    left: 350px;
+    left: 290px;
     top: -900px;
     width: 1000px;
     height:850px;	
@@ -315,27 +315,27 @@ h1 {
     0% {
         content: url('../assets/images//saladin2.jpg');
         height: 850px;
-        width: 1150px;
+        width: 1200px;
     }
     25% {
         content: url('../assets/images//saladin3.jpg');
         height: 850px;
-        width: 1150px;
+        width: 1200px;
     }
     50% {
         content: url('../assets/images//saladin7.jpg');
         height: 850px;
-        width: 1150px;
+        width: 1200px;
     }
     75% {
         content: url('../assets/images//saladin5.jpg');
         height: 850px;
-        width: 1150px;
+        width: 1200px;
     }
     100% {
         content: url('../assets/images//saladin10.jpg');
         height: 850px;
-        width: 1150px;
+        width: 1200px;
     }
 }
 
