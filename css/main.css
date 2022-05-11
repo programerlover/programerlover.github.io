@@ -303,8 +303,8 @@ h1 {
     position: relative;
     left: 900px;
     top: -700px;
-    width: 1000px;
-    height:750px;	
+    width: 1100px;
+    height:850px;	
     opacity: 20;
     animation: change 20s infinite;
     animation-timing-function: linear;
