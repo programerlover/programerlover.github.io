@@ -22,6 +22,6 @@ window.alert("this page contains many monuments such as:: saqqara , pyramids of 
 // make button where we click on it , the paragraph changed.
 function myFunction() {
   let x = document.getElementById("demo");
-  x.style.fontSize = "89.9px"; 
+  x.style.fontSize = "90px"; 
   x.style.color = "#e91e63"; 
 }
