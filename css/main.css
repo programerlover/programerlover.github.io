@@ -738,7 +738,7 @@ h1 {
     background-color: rgb(4, 4, 92);
     margin: -16px -15px 0 0;
     margin-left: -10px;
-    margin-right: -50px;
+    margin-right: -20px;
 }
 
 .threek p {
@@ -756,7 +756,7 @@ h1 {
     position: absolute;
     width: 330px;
     display: flex;
-    margin-left: 1020px;
+    margin-left: 1060px;
     margin-top: -49px;
 }
 
