@@ -24,17 +24,20 @@
     <div class="container">
         <div class="forms-container">
         <div class="signin-signup">
-            <form  class="sign-in-form">
+            <form name="form1" class="sign-in-form">
                 <h2 class="title">Sign in</h2>
                 <div class="input-field">
                     <i class="fas fa-user"aria-hidden="true"></i> 
-                    <input type="text" placeholder="Username">
+                    <input  name="user"type="text" placeholder="Username">
                 </div>
                 <div class="input-field">
                     <i class="fas fa-lock"aria-hidden="true" ></i>
-                    <input type="password" placeholder="Password">
+                    <input name="pass" type="password" placeholder="Password" id="myinput">
+                     <span class="eye" onclick="myfunction()">
+                    <i id="hide1" class="fa fa-low-vision"></i>
+                    <i  id="hide2" class="fa fa-eye"></i></span>
                 </div>
-                   <input type="submit" class="btn soild" value="Submit">
+                   <input onclick="fun()" type="submit" class="btn soild" value="Submit">
                   <a href="nada-register.html" class="gh" value="Register" ><span class="word">registe</span>r</a>
                 <p class="social-text"> Or Sign in with social platforms</p>
                 <div class="social-media">
@@ -66,6 +69,38 @@
               
         </div>
     </div>
-  <script src="log-in.js"></script>  
+  <script> 
+        function myfunction(){
+            var x = document.getElementById("myinput");
+            var y = document.getElementById("hide2");
+            var z = document.getElementById("hide1");
+        }
+            if(x.type === 'password'){
+               x.type = "text";
+               y.style.display = "block";
+               z.style.display = "none";
+            }
+            else{
+               x.type = "password";
+               y.style.display="none";
+               z.style.display = "block";
+            }
+    </script>
+    <script> 
+        function fun(){
+ if(document.form1.user.value=="" && document.form1.user.value==""){
+    alert("please enter the user and password");
+ }
+ else if(document.form1.user.value==""){
+    alert("please enter the user ");
+ }
+ else if(document.form1.pass.value==""){
+    alert("please enter the password ");
+ }
+ else{
+    alert("the process of the login was been done successfully");
+ }
+        }
+    </script>      
 </body>
 </html>
