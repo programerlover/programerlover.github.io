@@ -148,6 +148,14 @@ form{
     display: inline-block;
     margin-top: 10px;
 }
+.eye{
+    position: absolute;
+    margin-left: 245px;
+}
+
+#hide1{
+    display: none;
+}
 .btn:hover{
     background-color:#09415d ;
 }
