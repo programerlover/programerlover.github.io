@@ -78,13 +78,11 @@
 }
 
 .noha_small img{
-    width: 1000px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     background-position:1000px 600px;
     padding: 50px;
     transition: transform .2s;
-    width: 900px;
-    height: 600px;
     margin: 0 auto;
     float: left;
 }
