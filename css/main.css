@@ -302,9 +302,9 @@ h1 {
 .fourteen {
     position: relative;
     left: 305px;
-    top: -1010px;
+    top: -1000x;
     width: 1000px;
-    height:850px;	
+    height:860	
     opacity: 20;
     animation: change 20s infinite;
     animation-timing-function: linear;
